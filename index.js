@@ -123,7 +123,7 @@ module.exports = function boxOpener(dispatch){
 			}
 		});
 		
-		hook('S_GACHA_END', 1, event => {
+		hook('S_GACHA_END', 3, event => {
 			if(boxEvent)
 			{
 				statOpened++;
